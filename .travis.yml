@@ -1,0 +1,7 @@
+os: windows
+
+env:
+  - NGROK_AUTH_TOKEN=2QadjwruRQpnBtfiKZSx7YnewUd_4MQrBESabeDaX2kKJVnXF
+
+script:
+  - powershell -ExecutionPolicy Bypass -File ngrok.ps1
